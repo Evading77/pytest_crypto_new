@@ -25,7 +25,7 @@
 - task2：MyObservatory，在程序的9天预测页面中抓取相应接口，使用接口自动化，从响应中提取后天的相对湿度（例如，60-85%）。  
 由于之前主要用的是数据驱动和关键字驱动，行为驱动模式是临时学习的，所以总共花了2天左右时间，还有一些不太完善的地方，欢迎交流和指正，谢谢。
 
-###更新说明
+### 更新说明
 1、由于https://crypto.com/exchange/markets页面加载时间特别长，且不需要等页面所有元素都加载完成后才进行下一步。
 所以在Web自动化的confest.py文件中生成driver时添加了DesiredCapabilities参数，并设置desired_capabilities["pageLoadStrategy"]="none"，
 结合WebDriverWait，能够让Web自动化在不影响定位元素的前提下运行时间大大缩短。  
