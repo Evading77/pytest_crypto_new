@@ -1,0 +1,21 @@
+[ {
+  "uid" : "e8f475d9d481da14",
+  "name" : "test_get_humidity[caseinfo0]",
+  "time" : {
+    "start" : 1647180898516,
+    "stop" : 1647180899262,
+    "duration" : 746
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "852aa9814745d458",
+  "name" : "test_crypt",
+  "time" : {
+    "start" : 1647180915296,
+    "stop" : 1647180946837,
+    "duration" : 31541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

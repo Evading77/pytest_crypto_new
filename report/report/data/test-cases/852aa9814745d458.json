@@ -1,0 +1,259 @@
+{
+  "uid" : "852aa9814745d458",
+  "name" : "test_crypt",
+  "fullName" : "tests.web_tests.step_defs.test_crypto#test_crypt",
+  "historyId" : "4ac1e22022074080019b43d22db0b77b",
+  "time" : {
+    "start" : 1647180915296,
+    "stop" : 1647180946837,
+    "duration" : 31541
+  },
+  "description" : "../features/crypto.feature: 场景1：正常跳转到到ZIL/USDT的交易页面",
+  "descriptionHtml" : "<p>../features/crypto.feature: 场景1：正常跳转到到ZIL/USDT的交易页面</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1647180898466,
+      "stop" : 1647180898466,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1647180915290,
+      "stop" : 1647180915290,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1647180898465,
+      "stop" : 1647180898465,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_pytest_bdd_example",
+    "time" : {
+      "start" : 1647180915291,
+      "stop" : 1647180915291,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1647180898466,
+      "stop" : 1647180915289,
+      "duration" : 16823
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1647180915290,
+      "stop" : 1647180915290,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "../features/crypto.feature: 场景1：正常跳转到到ZIL/USDT的交易页面",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "谷歌访问https://crypto.com/exchange/markets",
+      "time" : {
+        "start" : 1647180915300,
+        "stop" : 1647180915577,
+        "duration" : 277
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'https://crypto.com/exchange/markets'"
+      }, {
+        "name" : "browser",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"4c0e1cc7dc6beaf95bf745b144fd27f8\")>"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击ZIL/USDT",
+      "time" : {
+        "start" : 1647180915579,
+        "stop" : 1647180941663,
+        "duration" : 26084
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "browser",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"4c0e1cc7dc6beaf95bf745b144fd27f8\")>"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "进入到了ZIL/USDT的交易页面",
+      "time" : {
+        "start" : 1647180941665,
+        "stop" : 1647180946837,
+        "duration" : 5172
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "af888801c449664d",
+        "name" : "./image/2022-03-13-22-15-45-sucess.png",
+        "source" : "af888801c449664d.png",
+        "type" : "image/png",
+        "size" : 165368
+      } ],
+      "parameters" : [ {
+        "name" : "browser",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"4c0e1cc7dc6beaf95bf745b144fd27f8\")>"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "ba07024e5446e3c0",
+      "name" : "log",
+      "source" : "ba07024e5446e3c0.txt",
+      "type" : "text/plain",
+      "size" : 939
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1647180947226,
+      "stop" : 1647180956245,
+      "duration" : 9019
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.web_tests.step_defs"
+  }, {
+    "name" : "suite",
+    "value" : "test_crypto"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-MBQ5PHN2"
+  }, {
+    "name" : "thread",
+    "value" : "30916-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.web_tests.step_defs.test_crypto"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bd01656bbf201e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646641076451,
+        "stop" : 1646641185054,
+        "duration" : 108603
+      }
+    }, {
+      "uid" : "f815a71f48493a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646639945723,
+        "stop" : 1646640136515,
+        "duration" : 190792
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "852aa9814745d458.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,10 @@
+[32mINFO    [0m conftest.py:conftest.py:26 成功得到driver
+[32mINFO    [0m base_page.py:base_page.py:14 打开浏览器，跳转至https://crypto.com/exchange/markets
+[32mINFO    [0m base_page.py:base_page.py:22 ('xpath', "//div[@id='swiper-container-2']")元素已找到
+[32mINFO    [0m base_page.py:base_page.py:45 已拖动浏览器到坐标为(0,100000)的页面
+[32mINFO    [0m base_page.py:base_page.py:22 ('xpath', "//img[@alt='ZIL']")元素已找到
+[32mINFO    [0m base_page.py:base_page.py:22 ('xpath', "//div[@class='trading-history-title']")元素已找到
+[32mINFO    [0m base_page.py:base_page.py:45 已拖动浏览器到坐标为(0,0)的页面
+[32mINFO    [0m base_page.py:base_page.py:22 ('xpath', "//div[@class='toggle']")元素已找到
+[32mINFO    [0m base_page.py:base_page.py:64 用例运行成功并截图保存
+[32mINFO    [0m conftest.py:conftest.py:29 关闭浏览器，自动化测试结束

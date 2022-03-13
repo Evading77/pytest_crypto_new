@@ -1,0 +1,10 @@
+[32mINFO    [0m conftest.py:conftest.py:22 成功得到driver
+[32mINFO    [0m test_crypto.py:test_crypto.py:19 打开浏览器，跳转至https://crypto.com/exchange/markets
+[32mINFO    [0m test_crypto.py:test_crypto.py:27 拖动浏览器到最底部
+[32mINFO    [0m test_crypto.py:test_crypto.py:32 找到元素，并点击跳转到目标页面
+[32mINFO    [0m test_crypto.py:test_crypto.py:42 将页面拖到最上方
+[32mINFO    [0m test_crypto.py:test_crypto.py:44 页面需要断言判断的实际值为：ZIL/USDT
+[32mINFO    [0m test_crypto.py:test_crypto.py:47 页面需要断言判断的实际值为：ZIL/USDT
+[32mINFO    [0m test_crypto.py:test_crypto.py:50 成功跳转到了ZIL/USDT的交易页面
+[32mINFO    [0m test_crypto.py:test_crypto.py:52 用例运行成功并截图保存
+[32mINFO    [0m conftest.py:conftest.py:25 关闭浏览器，自动化测试结束

@@ -1,0 +1,43 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "api_tests.test_api",
+      "children" : [ {
+        "name" : "test_get_humidity[caseinfo0]",
+        "uid" : "e8f475d9d481da14",
+        "parentUid" : "be89a5eb15c321a180a917876d89be9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647180898516,
+          "stop" : 1647180899262,
+          "duration" : 746
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '获取我的天文台中-九天预报-后天的湿度', 'request': {'method': 'get', 'url': 'https://pda.weather.gov.hk/locspc/android_data/fnd_uc.xml', 'params': None}, 'vadidate': None}" ]
+      } ],
+      "uid" : "api_tests.test_api"
+    }, {
+      "name" : "web_tests.step_defs.test_crypto",
+      "children" : [ {
+        "name" : "test_crypt",
+        "uid" : "852aa9814745d458",
+        "parentUid" : "d8223045ca0d1d10e364a1b29339b3d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647180915296,
+          "stop" : 1647180946837,
+          "duration" : 31541
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "web_tests.step_defs.test_crypto"
+    } ],
+    "uid" : "bf49149a3821e34f7608bb6885d52868"
+  } ]
+}

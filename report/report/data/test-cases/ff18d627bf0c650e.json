@@ -1,0 +1,103 @@
+{
+  "uid" : "ff18d627bf0c650e",
+  "name" : "test_get_humidity[caseinfo0]",
+  "fullName" : "tests.api_tests.test_api.TestApi#test_get_humidity",
+  "historyId" : "00e7e5dc08830bf71a60b2736d82a50d",
+  "time" : {
+    "start" : 1646640372156,
+    "stop" : 1646640372594,
+    "duration" : 438
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1646640372047,
+      "stop" : 1646640372047,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1646640372047,
+      "stop" : 1646640372047,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5e87376acd0b16d3",
+      "name" : "log",
+      "source" : "5e87376acd0b16d3.txt",
+      "type" : "text/plain",
+      "size" : 2825
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestApi"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-MBQ5PHN2"
+  }, {
+    "name" : "thread",
+    "value" : "23280-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "{'name': '获取我的天文台中-九天预报-后天的湿度', 'request': {'method': 'get', 'url': 'https://pda.weather.gov.hk/locspc/android_data/fnd_uc.xml', 'params': None}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff18d627bf0c650e.json",
+  "parameterValues" : [ "{'name': '获取我的天文台中-九天预报-后天的湿度', 'request': {'method': 'get', 'url': 'https://pda.weather.gov.hk/locspc/android_data/fnd_uc.xml', 'params': None}}" ]
+}

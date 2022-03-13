@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Mar 13 22:15:15 CST 2022","Sun Mar 13 22:15:46 CST 2022","31541","tests.web_tests.step_defs","test_crypto","","","","test_crypt","../features/crypto.feature: 场景1：正常跳转到到ZIL/USDT的交易页面"
+"passed","Sun Mar 13 22:14:58 CST 2022","Sun Mar 13 22:14:59 CST 2022","746","tests.api_tests","test_api","TestApi","","","test_get_humidity[caseinfo0]",""

@@ -1,0 +1,5 @@
+- name: 获取我的天文台中-九天预报-后天的湿度
+  request:
+    method: get
+    url: https://pda.weather.gov.hk/locspc/android_data/fnd_uc.xml
+    params:
